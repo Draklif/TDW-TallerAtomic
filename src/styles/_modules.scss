@@ -1,0 +1,34 @@
+/* Estilos para el módulo del header y del footer específico */
+.header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1rem;
+    background-color: #007bff;  
+}
+
+.header h1 {
+    color: white;
+    margin: 0;
+    font-size: 1.5em; 
+}
+
+.header nav a {
+    color: white;
+    padding: 0.5em 1em;
+    text-decoration: none;
+}
+
+.header button {
+}
+
+.footer {
+    padding: 1rem;
+    background-color: #007bff;
+    color: white;
+    text-align: center;
+}
+
+.footer span {
+    font-size: 1rem;
+}
