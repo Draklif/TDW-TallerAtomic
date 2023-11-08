@@ -1,6 +1,6 @@
 <app-main-layout>
     <div class="course-list">
-        <app-course-card *ngFor="let course of courses" [course]="course" (register)="goToRegister(course)"></app-course-card>
+        <app-course-card *ngFor="let course of courses" [course]="course" [showRegisterBtn]="true" (register)="goToRegister(course)"></app-course-card>
     </div>
 </app-main-layout>
   

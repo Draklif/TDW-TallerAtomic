@@ -6,9 +6,12 @@ import { Course } from 'src/interfaces/course';
 })
 export class CoursesService {
   private courses: Course[] = [
-    { id: 1, title: 'Curso 1', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { id: 2, title: 'Curso 2', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
-    { id: 3, title: 'Curso 3', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { id: 1, title: 'Taller de HTML', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { id: 2, title: 'Taller de CSS', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { id: 3, title: 'Taller de JS', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { id: 4, title: 'Metodologías CSS', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { id: 5, title: 'Frameworks Frontend', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
+    { id: 6, title: 'Atomic Design', description: 'Lorem ipsum dolor sit amet, consectetur adipiscing elit.' },
   ];
 
   constructor() {}

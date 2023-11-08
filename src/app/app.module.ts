@@ -1,5 +1,6 @@
 import { NgModule } from '@angular/core';
 import { BrowserModule } from '@angular/platform-browser';
+import { ReactiveFormsModule } from '@angular/forms';
 
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
@@ -10,6 +11,7 @@ import { CourseCardComponent } from './molecules/course-card/course-card.compone
 import { MainLayoutComponent } from './templates/main-layout/main-layout.component';
 import { MainComponent } from './pages/main/main.component';
 import { RegisterComponent } from './pages/register/register.component';
+import { CoursesComponent } from './pages/courses/courses.component';
 
 @NgModule({
   declarations: [
@@ -20,11 +22,13 @@ import { RegisterComponent } from './pages/register/register.component';
     CourseCardComponent,
     MainLayoutComponent,
     MainComponent,
-    RegisterComponent
+    RegisterComponent,
+    CoursesComponent
   ],
   imports: [
     BrowserModule,
-    AppRoutingModule
+    AppRoutingModule,
+    ReactiveFormsModule
   ],
   providers: [],
   bootstrap: [AppComponent]
